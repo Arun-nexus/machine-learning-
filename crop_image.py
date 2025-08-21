@@ -29,7 +29,7 @@ cv2.setMouseCallback("window",draw)
 
 while True:
     cv2.imshow("window",img)
-    if cv2.waitKey(1) & 0xFF == ord("x"):
+    if cv2.waitKey(1) & 0xFF == ord("y"):
         break
 
 cv2.destroyAllWindows()
