@@ -1,5 +1,5 @@
 class Solution(object):
-    def threeSum(self, nums):
+    def threeSum(self,nums):
         nums.sort()
         res=[]
         for i in range(len(nums)):
